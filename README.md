@@ -1,6 +1,4 @@
-[![Build Status](https://github.com/mdogan/homebrew-zulu/workflows/Build/badge.svg)](https://github.com/mdogan/homebrew-zulu/actions)
-
-# Zulu JDK Homebrew Casks
+# Zulu JDK Homebrew Casks for ARM Macs
 
 [https://www.azul.com/downloads/zulu-community/](https://www.azul.com/downloads/zulu-community/?&os=macos&os-details=macOS&package=jdk)
 
@@ -8,8 +6,11 @@ https://www.azul.com/products/zulu-mission-control/
 
 ## Installation:
 
+This tap is forked from [mdogan/homebrew-zulu](https://github.com/mdogan/homebrew-zulu) to provide Azul JDK builds for M1
+Macs.
+
 ```bash
-brew tap mdogan/zulu
+brew tap Keating950/homebrew-zulu
 brew cask install <name>
 ```
 
